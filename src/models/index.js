@@ -1,0 +1,10 @@
+import Order from "./order";
+import Customer from "./customer";
+import SuiteType from "./suite.type";
+import Measure from "./measure";
+import App from "./app";
+export const CustomerModel = Customer;
+export const SuiteTypeModel = SuiteType;
+export const OrderModel = Order;
+export const MeasureModel = Measure;
+export const AppModel = App;

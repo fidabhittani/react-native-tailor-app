@@ -1,28 +1,28 @@
 {
   "expo": {
     "name": "PerfectCut",
-    "slug": "PerfectCut",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "slug": "perfect-cut",
+    "platforms": ["ios", "android", "web"],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/brand/logo_transparent.png",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
+      "image": "./assets/brand/splash.png",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "android": {
+      "package": "com.icecubes.perfectcut",
+      "versionCode": 1
+    },
+
+    "description": "An app that handles tailors measures and customer and order management."
   }
 }
