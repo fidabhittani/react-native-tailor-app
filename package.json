@@ -19,7 +19,7 @@
     "@react-navigation/stack": "^5.3.7",
     "@ui-kitten/components": "^5.0.0",
     "@ui-kitten/eva-icons": "^5.0.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "colorthief": "^2.3.0",
     "expo": "37.0.1",
     "expo-camera": "~8.2.0",
